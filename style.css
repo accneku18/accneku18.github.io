@@ -1,0 +1,23 @@
+#mainContents {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 620px;
+    border: 2px solid #808080;
+    background-color: cornflowerblue;
+}
+
+#lblGen {
+    padding: 0.5em 1em;
+    color: #5d627b;
+    background: #ffebe9;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.11);
+    text-align: center;
+}
+
+#reset {
+    background: #ffebe9;
+}

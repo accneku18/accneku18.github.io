@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hexagonal Game of Life</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="header">
+        <h1>Hexagonal<br>Game of Life</h1>
+        <div id="gameModeNav" data-role="navbar">
+            <ul>
+                <li><a href="#" data-gamemode="Original" class="ui-btn-active">Original</a></li>
+                <li><a href="#" data-gamemode="Octagon">Octagon</a></li>
+                <li><a href="#" data-gamemode="Nebula">Nebula</a></li>
+                <li><a href="#" data-gamemode="Glider">Glider</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div role="main">
+        <div id="lblGen">Generation:</div>
+        <div id="mainContents">
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+    <button id="reset" class="ui-btn ui-corner-all">Reset</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
